@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Julian Friedman (Julz)",
+        "role": "Product Manager",
+        "company": "IBM",
+        "email": "julz.friedman@uk.ibm.com",
+        "city": "London, UK",
+        "image": "https://avatars.githubusercontent.com/julz",
+        "twitter": "doctor_julz",
+        "git": "julz"
+      }, {
+        "name": "Steffen Uhlig",
+        "role": "Anchor",
+        "company": "IBM",
+        "email": "steffen.uhlig@de.ibm.com",
+        "city": "Boeblingen, Germany",
+        "image": "https://avatars.githubusercontent.com/suhlig",
+        "git": "suhlig",
+        "twitter": "suhlig"
+      }, {
+        "name": "Julian Skupnjak (HerrJulz)",
+        "role": "Eiringineer",
+        "company": "IBM",
+        "email": "skupnjak@de.ibm.com",
+        "city": "Boeblingen, Germany",
+        "image": "https://avatars.githubusercontent.com/JulzDiverse",
+        "git": "JulzDiverse",
+        "twitter": "herrjulz"
+      }, {
+        "name": "Mario Nitchev",
+        "role": "Eiringineer",
+        "company": "SAP",
+        "email": "mario.nitchev@sap.com",
+        "city": "Sofia, Bulgaria",
+        "twitter": "mnitchev",
+        "git": "mnitchev",
+        "image": "https://avatars.githubusercontent.com/mnitchev"
+      }, {
+        "name": "Georgi Dankov",
+        "role": "Eiringineer",
+        "company": "SAP",
+        "twitter": "gdankov",
+        "email": "georgi.dankov@sap.com",
+        "city": "Sofia, Bulgaria",
+        "git": "gdankov",
+        "image": "https://avatars.githubusercontent.com/gdankov"
+      }, {
+        "name": "Oleksandr Slynko",
+        "role": "Eiringineer",
+        "company": "Pivotal",
+        "email": "oslynko@pivotal.io",
+        "twitter": "alex_sly",
+        "city": "Dublin, Ireland",
+        "git": "alex-slynko",
+        "image": "https://avatars.githubusercontent.com/alex-slynko"
+      }, {
+        "name": "Akshay Mankar",
+        "role": "Eiringineer",
+        "company": "Pivotal",
+        "email": "amankar@pivotal.io",
+        "twitter": "AkshayMankar",
+        "city": "Dublin, Ireland",
+        "git": "akshaymankar",
+        "image": "https://avatars.githubusercontent.com/akshaymankar"
+      }, {
+        "name": "Matthew Sweeps",
+        "role": "Eiringineer",
+        "company": "Google",
+        "email": "mattysweeps@google.com",
+        "city": "Seattle, USA",
+        "twitter": "",
+        "git": "mattysweeps",
+        "image": "https://avatars.githubusercontent.com/mattysweeps"
+      }, {
+        "name": "Nima Kaviani",
+        "role": "Eiringineer",
+        "company": "IBM",
+        "email": "nkavian@us.ibm.com",
+        "city": "San Francisco, USA",
+        "twitter": "nimak",
+        "git": "nimakaviani",
+        "image": "https://avatars.githubusercontent.com/nimakaviani"
+    }
+]

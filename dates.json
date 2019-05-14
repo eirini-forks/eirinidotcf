@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Kube your Enthusiasm",
+    "speaker": "Julian Skupnjak",
+    "date": "May 8th, 2019",
+    "location": "Berlin PaaS & CF Meetup",
+    "avatar": "https://secure.meetupstatic.com/photos/event/a/9/3/600_458702707.jpeg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Kube your Enthusiasm",
+    "speaker": "Simon Moser & Julian Skupnjak",
+    "date": "May 8th, 2019",
+    "location": "Jax Conf",
+    "avatar": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Jax_logo.svg/220px-Jax_logo.svg.png"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Zero to CF in Kube-Cluster in 30 Seconds with Concourse, Helm, Fissile and Eirini",
+    "speaker": "Steffen Uhlig & Akshay Mankar",
+    "date": "April 4th, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Diego vs Eirini: How to Choose the Best Fitting Container Scheduler",
+    "speaker": "Julz Skupnjak & Georgi Dankov",
+    "date": "April 4th, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Kube your Enthusiasm: Bringing Cloud Foundry and Kubernetes Together with Project Eirini",
+    "speaker": "Julz Friedman & Mario Nitchev",
+    "date": "April 4th, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Microservices With Cloud Foundry and Kubernetes",
+    "speaker": "Julz Skupnjak & Georgi Dankov",
+    "date": "April 3rd, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Cloud Foundry 101 for Kubernetes Users",
+    "speaker": "Steffen Uhlig & Oleksandr Slynko",
+    "date": "April 3rd, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Creating a Portable Cloud Foundry on Kubernetes",
+    "speaker": "Joseph Lewis III & Matthew Broomfield, Google",
+    "date": "April 3rd, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  },
+  { "divider": true, "inset": true }, {
+    "title": "Keynote, Eirini Demo",
+    "speaker": "Julz Friedman",
+    "date": "April 3rd, 2019",
+    "location": "CF Summit - Philadelphia",
+    "avatar": "https://www.cloudfoundry.org/wp-content/uploads/CFF0147-summit-2019-na-digital-ads_800x800.jpg"
+  }
+]
