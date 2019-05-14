@@ -8,7 +8,6 @@
           {{ link.text }}
         </v-btn>
         <v-spacer />
-        <uploader />
       </v-layout>
     </v-container>
   </v-toolbar>
