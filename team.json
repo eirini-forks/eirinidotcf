@@ -8,18 +8,9 @@
         "image": "https://avatars.githubusercontent.com/julz",
         "twitter": "doctor_julz",
         "git": "julz"
-      }, {
-        "name": "Steffen Uhlig",
-        "role": "Anchor",
-        "company": "IBM",
-        "email": "steffen.uhlig@de.ibm.com",
-        "city": "Boeblingen, Germany",
-        "image": "https://avatars.githubusercontent.com/suhlig",
-        "git": "suhlig",
-        "twitter": "suhlig"
-      }, {
+      },{
         "name": "Julian Skupnjak (HerrJulz)",
-        "role": "Eiringineer",
+        "role": "Anchor",
         "company": "IBM",
         "email": "skupnjak@de.ibm.com",
         "city": "Boeblingen, Germany",
@@ -80,5 +71,14 @@
         "twitter": "nimak",
         "git": "nimakaviani",
         "image": "https://avatars.githubusercontent.com/nimakaviani"
-    }
+    }, {
+        "name": "Michael Schaefer",
+        "role": "Eirinigineer",
+        "company": "IBM",
+        "email": "schaefer.michael@de.ibm.com",
+        "city": "Boeblingen, Germany",
+        "image": "https://avatars.githubusercontent.com/schaefm-ibm",
+        "git": "schaefm-ibm",
+        "twitter": "-"
+      }
 ]
