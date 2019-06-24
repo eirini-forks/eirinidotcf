@@ -1,4 +1,46 @@
-[
+[ 
+  {
+    "title": "eirinix - Writing Extensions for Eirini",
+    "speaker": "Vlad Iovanov & Ettore Di Giacinto",
+    "date": "September 12th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
+  {
+    "title": "eirinix - Writing Extensions for Eirini",
+    "speaker": "Vlad Iovanov & Ettore Di Giacinto",
+    "date": "September 12th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
+  {
+    "title": "Kubernetes 101 for Quarks and Eirini Users",
+    "speaker": "Georgi Dankov & Oleksandr Slynko",
+    "date": "September 12th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
+  {
+    "title": "Kubernetes 101 for Quarks and Eirini Users",
+    "speaker": "Georgi Dankov & Oleksandr Slynko",
+    "date": "September 12th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
+  {
+    "title": "Implementing the Schedulers",
+    "speaker": "Nima Kaviani & Jen Spinney",
+    "date": "September 11th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
+  {
+    "title": "Cube your Enthusiasm",
+    "speaker": "Julian Skupnjak & Mario Nitchev",
+    "date": "September 11th, 2019",
+    "location": "CF Summit Europe, The Hague, The Netherlands",
+    "avatar": "https://yt3.ggpht.com/a/AGF-l7_cprlD0YYRhNStNYnZ38YnmgFb1VU3wzXbkw=s900-mo-c-c0xffffffff-rj-k-no"
+  },
   {
     "title": "Kube your Enthusiasm",
     "speaker": "Julian Skupnjak",
