@@ -39,11 +39,11 @@
       }, {
         name: 'Source Code',
         icon: 'mdi-code-braces',
-        link: 'https://github.com/cloudfoundry-incubator/eirini-release'
+        link: 'https://github.com/cloudfoundry-incubator/eirini'
       }, {
         name: 'Eirini CI',
         icon: 'mdi-airplane-takeoff',
-        link: 'https://ci.flintstone.cf.cloud.ibm.com/teams/eirini/pipelines/ci'
+        link: 'https://ci.eirini.cf-app.com'
       }]
     }),
 
