@@ -1,6 +1,6 @@
 ---
 applications:
-  - name: api
+  - name: pheed-api
     buildpack: go_buildpack
     env:
       GOPACKAGENAME: github.com/JulzDiverse/eirinidotcf/api

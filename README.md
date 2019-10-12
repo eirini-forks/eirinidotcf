@@ -2,66 +2,58 @@
 
 This repository contains the resources for `https://eirini.cf`. 
 
-## Frontend
-
-1. Set the `api_url` in `web/src/config.json` to `http://api.<your-cf-domain>`
-1. Build the static content using `yarn`:
-
-   ```command
-   $ pushd web 
-   $ yarn run build
-   ```
-
-1. Run `cf push`
-1. The frontend app should be avialable now at `http://feedelphia.<your-cf-domain>`
-
-   At this stage you cannot interact with the UI at all. We will need to setup the backend first.
-
-1. Return to the root directory of `feedelphia`: `$ popd`
-
-
 ## API
 
-1. Navigate to the `api/` directory: `$ pushd api`
+1. Navigate to the `api/` directory
 1. Run `cf push`
 1. Wait for the app to get deployed
-1. Navigate back to the root directory of `eirinidotcf`: `$ popd`
+1. Navigate back to the root directory of `eirinidotcf`
 
 ## Deploy the database
 
-1. Navigate to the `db/` directory `$ pushd db`
-1. Run `./helm-install-db.sh`
-1. Export the `MYSQL_ROOT_PASSWORD` to an environment variable:
-
-   ```command
-   $ MYSQL_ROOT_PASSWORD=$(kubectl get secret --namespace feed-db feed-mysql -o jsonpath="{.data.mysql-root-password}" | base64 --decode; echo)
-   ```
-
-1. Expose the database deployment using NodePort:
-
-   ```command
-   $ kubectl expose deployment feed-db --type=NodePort
-   ```
-
-1. Get the node port: `$ kubectl get svc feed-db -o yaml | grep nodePort`
-1. Navigate back to the root directory of `feedelphia`: `$ popd`
+1. Navigate to the `db/` directory
+2. Run `./helm-install-db.sh`
+3. Export the `MYSQL_ROOT_PASSWORD` to an environment variable:
+```command
+export MYSQL_ROOT_PASSWORD=$(kubectl get secret --namespace pheed-db pheed-mysql -o jsonpath="{.data.mysql-root-password}" | base64 --decode; echo)
+```
+4. Get the node port of the database:
+```command
+kubectl get svc feed-db -o yaml | grep nodePort
+```
+5. Navigate back to the root directory of `feedelphia`
 
 ## Bind the api to the MySql Database
 
-1. Navigate back to the `api`: `$ pushd api`
-1. Edit the `db-cups.json` and provide the `MYSQL_ROOT_PASSWORD` value to the `password` property
-1. Set the `db_address` to `<node-ip>:<node-port>`
-1. Create a User-Provided-Service instance:
+1. Navigate back to the `api` directory
+2. Export env variables `$DB_IP`(the node IP) and `$DB_PORT` (the node port of the database)
+3. Create a User-Provided-Service instance:
+```command
+cf cups feed-db -p "$(./db-cups.json.sh)"
+```
+4. Bind the `api` app to the `feed-db` service instance:
+```command
+cf bind-service pheed-api feed-db
+```
+5. Restage the `api` app: 
+```
+cf restage pheed-api
+```
 
-   ```command
-   $ cf cups feed-db -p db-cups.json
-   ```
+## Frontend
 
-1. Bind the `api` app to the `feed-db` service instance:
+1. Set the `api_url` in `web/src/config.json` to `http://pheed-api.<your-cf-domain>`
+2. Build the static content using `yarn`:
+```command
+npm install
+yarn run build
+cf push
+```
 
-   ```command
-   $ cf bind-service api feed-db
-   ```
+The frontend app should be avialable now at `http://web.<your-cf-domain>`
 
-1. Restage the `api` app: `$ cf restage api`
-
+If you have a domain registered to your cluster node IP and you want to use it for this app, run the following commands:
+```command
+cf create-domain <org> <domain>
+cf map-route web <domain>
+```
