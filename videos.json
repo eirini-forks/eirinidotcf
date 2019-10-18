@@ -1,5 +1,30 @@
 [
   {
+    "title": "'Cube' your Enthusiasm: Bringing CF and Kubernetes Together with Project Eirini",
+    "speaker": "Mario Nitchev (SAP) & Julian Skupnja (IBM)",
+    "id": "m1uoeS3Kwjs"
+  },
+  {
+    "title": "Kubernetes 101 for Quarks and Eirini Users",
+    "speaker": "Georgi Dankov (SAP) & Oleksandr Slynko (Pivotal)",
+    "id": "oZf6wRVOCmc"
+  },
+  {
+    "title": "Implementing the Schedulers: A Look at the Internals of Diego and Eirini",
+    "speaker": "Nima Kaviani (IBM) & Jen Spinney (Pivotal)",
+    "id": "_eqCOOpZKfA"
+  },
+  {
+    "title": "Eirinix - Writing Extensions for Eirini",
+    "speaker": "Vlad Iovanov & Ettore Di Giacinto, SUSE",
+    "id": "yV-0LPdSBvk"
+  },
+  {
+    "title": "Eirini vs. Knative - A Comparison",
+    "speaker": "Julian Fischer, Anynines",
+    "id": "lQmsAItMm6s"
+  },
+  {
     "title": "CF Summit NA - Keynote by Julz Friedman",
     "speaker": "Julz Friedman",
     "id": "XZgW2E6Xw-s?start=1726"
