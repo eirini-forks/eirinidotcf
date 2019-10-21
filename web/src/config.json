@@ -1,4 +1,4 @@
 {
-  "api_url": "CONFIGURE",
+  "api_url": "http://eirinidotcf-api.<CF_DOMAIN>",
   "title": "Team Eirini"
 }
