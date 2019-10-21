@@ -2,13 +2,6 @@
 
 This repository contains the resources for `https://eirini.cf`. 
 
-## API
-
-1. Navigate to the `api/` directory
-1. Run `cf push`
-1. Wait for the app to get deployed
-1. Navigate back to the root directory of `eirinidotcf`
-
 ## Deploy the database
 
 1. Navigate to the `db/` directory
@@ -17,11 +10,36 @@ This repository contains the resources for `https://eirini.cf`.
 ```command
 export MYSQL_ROOT_PASSWORD=$(kubectl get secret --namespace pheed-db pheed-mysql -o jsonpath="{.data.mysql-root-password}" | base64 --decode; echo)
 ```
-4. Get the node port of the database:
+
+4. Get the node port of the database and export it as `$DB_PORT`:
 ```command
-kubectl get svc feed-db -o yaml | grep nodePort
+export DB_PORT=$(kubectl get service -npheed-db pheed-mysql -ojsonpath='{.spec.ports[?(.name=="mysql")].nodePort}')
 ```
-5. Navigate back to the root directory of `feedelphia`
+
+5. Get a Node IP and export it as `$DB_IP`
+
+## API
+
+1. Navigate to the `api/` directory
+2. Run `cf push`
+3. Wait for the app to get deployed (it will crash, that's fine)
+4. Create the Custom Service for the Database
+
+```command
+cf cups pheed-db -p "$(./db-cups.json.sh)"
+```
+
+5. Bind the service with the API CF app:
+
+```command
+cf bind-service eirinidotcf-api pheed-db
+```
+
+6. Restage the API:
+
+```command
+cf restage eirinidotcf-api
+```
 
 ## Bind the api to the MySql Database
 
@@ -42,13 +60,14 @@ cf restage pheed-api
 
 ## Frontend
 
-1. Set the `api_url` in `web/src/config.json` to `http://pheed-api.<your-cf-domain>`
-2. Build the static content using `yarn`:
+1. Set the `api_url` in `web/src/config.json` to `http://eirinidotcf.<your-cf-domain>`
+2. Run `yarn install` inside the `/web`
+3. Build the static content using `yarn`:
 ```command
-npm install
+yarn install
 yarn run build
-cf push
 ```
+4. CF push the web frontend with `$ cf push`
 
 The frontend app should be avialable now at `http://web.<your-cf-domain>`
 
