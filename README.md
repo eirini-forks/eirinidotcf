@@ -22,7 +22,7 @@ export DB_PORT=$(kubectl get service -npheed-db pheed-mysql -ojsonpath='{.spec.p
 
 1. Navigate to the `api/` directory
 2. Run `cf push`
-3. Wait for the app to get deployed (it will crash, that's fine)
+3. Wait for the app to get deployed **(it will crash, that's fine)**
 4. Create the Custom Service for the Database
 
 ```command
