@@ -14,7 +14,7 @@
         "company": "IBM",
         "email": "skupnjak@de.ibm.com",
         "city": "Boeblingen, Germany",
-        "image": "https://avatars.githubusercontent.com/JulzDiverse",
+        "image": "https://avatars.githubusercontent.com/herrjulz",
         "git": "JulzDiverse",
         "twitter": "herrjulz"
       }, {
@@ -36,49 +36,49 @@
         "git": "gdankov",
         "image": "https://avatars.githubusercontent.com/gdankov"
       }, {
-        "name": "Oleksandr Slynko",
+        "name": "Kieron Browne",
         "role": "Eiringineer",
-        "company": "Pivotal",
-        "email": "oslynko@pivotal.io",
-        "twitter": "alex_sly",
-        "city": "Dublin, Ireland",
-        "git": "alex-slynko",
-        "image": "https://avatars.githubusercontent.com/alex-slynko"
+        "company": "VMware",
+        "email": "kbrowne@vmware.com",
+        "twitter": "-",
+        "city": "London, UK",
+        "git": "kieron-pivotal",
+        "image": "https://avatars.githubusercontent.com/kieron-pivotal"
       }, {
-        "name": "Akshay Mankar",
+        "name": "Giuseppe Capizzi",
         "role": "Eiringineer",
-        "company": "Pivotal",
-        "email": "amankar@pivotal.io",
-        "twitter": "AkshayMankar",
-        "city": "Dublin, Ireland",
-        "git": "akshaymankar",
-        "image": "https://avatars.githubusercontent.com/akshaymankar"
+        "company": "VMware",
+        "email": "g.capizzi@gmail.com",
+        "twitter": "-",
+        "city": "London, UK",
+        "git": "gcapizzi",
+        "image": "https://avatars.githubusercontent.com/gcapizzi"
       }, {
-        "name": "Matthew Sweeps",
+        "name": "Danail Branekov",
         "role": "Eiringineer",
-        "company": "Google",
-        "email": "mattysweeps@google.com",
-        "city": "Seattle, USA",
-        "twitter": "",
-        "git": "mattysweeps",
-        "image": "https://avatars.githubusercontent.com/mattysweeps"
+        "company": "SAP",
+        "email": "-",
+        "city": "Sofia, Bulgaria",
+        "twitter": "-",
+        "git": "danail-branekov",
+        "image": "https://avatars.githubusercontent.com/danail-branekov"
       }, {
-        "name": "Nima Kaviani",
+        "name": "Georgi Sabev",
         "role": "Eiringineer",
-        "company": "IBM",
-        "email": "nkavian@us.ibm.com",
-        "city": "San Francisco, USA",
-        "twitter": "nimak",
-        "git": "nimakaviani",
-        "image": "https://avatars.githubusercontent.com/nimakaviani"
+        "company": "SAP",
+        "email": "-",
+        "city": "Sofia, Bulgaria",
+        "twitter": "-",
+        "git": "georgethebeatle",
+        "image": "https://avatars.githubusercontent.com/georgethebeatle"
     }, {
-        "name": "Michael Schaefer",
+        "name": "Yulia Nedyalkova",
         "role": "Eirinigineer",
-        "company": "IBM",
-        "email": "schaefer.michael@de.ibm.com",
-        "city": "Boeblingen, Germany",
-        "image": "https://avatars.githubusercontent.com/schaefm-ibm",
-        "git": "schaefm-ibm",
+        "company": "SAP",
+        "email": "yulia.nedyalkova@sap.com",
+        "city": "Sofia, Bulgaria",
+        "image": "https://avatars.githubusercontent.com/yulianedyalkova",
+        "git": "yulianedyalkova",
         "twitter": "-"
       }
 ]
