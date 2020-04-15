@@ -2,6 +2,7 @@
 
 kubectl apply -f ./serviceaccount.yml
 
+helm init --client-only
 helm repo update
 helm upgrade pheed-mysql stable/mysql --install  \
   --namespace pheed-db \
