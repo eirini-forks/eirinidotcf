@@ -2,9 +2,9 @@
 
 kubectl apply -f ./serviceaccount.yml
 
-useExistingSecret=false
+useExistingSecret="nil"
 if helm status pheed-mysql; then
-    useExistingSecret=true
+    useExistingSecret="pheed-mysql"
 fi
 
 helm init --client-only
