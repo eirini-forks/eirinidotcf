@@ -1,3 +1,4 @@
 ---
 applications:
 - name: web
+  buildpack: paketo-buildpacks/nginx
