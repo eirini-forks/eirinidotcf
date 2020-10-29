@@ -1,4 +1,6 @@
 *
 
-!Staticfile
+!nginx.conf
+!buildpack.yml
+!mime.types
 !dist/
