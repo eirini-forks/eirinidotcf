@@ -20,10 +20,6 @@ export default new Vuex.Store({
       {
         text: 'Talks',
         to: '/talks'
-      },
-      {
-        text: 'Pheed',
-        to: '/pheed'
       }
     ]
   },
