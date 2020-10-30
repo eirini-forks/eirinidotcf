@@ -11,4 +11,4 @@ helm init --client-only
 helm repo update
 helm upgrade pheed-mysql stable/mysql --install  \
   --namespace pheed-db \
-  --set persistence.storageClass=hostpath,mysqlDatabase=pheed,service.type=NodePort,mysqlRootPassword="$MYSQL_ROOT_PASSWORD"
+  --set persistence.storageClass=standard,mysqlDatabase=pheed,service.type=NodePort,mysqlRootPassword="$MYSQL_ROOT_PASSWORD"
