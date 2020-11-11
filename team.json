@@ -1,41 +1,24 @@
 [
-    {
-        "name": "Julian Friedman (Julz)",
-        "role": "Product Manager",
-        "company": "IBM",
-        "email": "julz.friedman@uk.ibm.com",
-        "city": "London, UK",
-        "image": "https://avatars.githubusercontent.com/julz",
-        "twitter": "doctor_julz",
-        "git": "julz"
-      },{
+      {
         "name": "Julian Skupnjak (HerrJulz)",
-        "role": "Anchor",
+        "role": "Product Manager",
         "company": "IBM",
         "email": "skupnjak@de.ibm.com",
         "city": "Boeblingen, Germany",
         "image": "https://avatars.githubusercontent.com/herrjulz",
-        "git": "JulzDiverse",
+        "git": "herrjulz",
         "twitter": "herrjulz"
       }, {
         "name": "Mario Nitchev",
-        "role": "Eiringineer",
+        "role": "Anchor",
         "company": "SAP",
         "email": "mario.nitchev@sap.com",
         "city": "Sofia, Bulgaria",
         "twitter": "mnitchev",
         "git": "mnitchev",
         "image": "https://avatars.githubusercontent.com/mnitchev"
-      }, {
-        "name": "Georgi Dankov",
-        "role": "Eiringineer",
-        "company": "SAP",
-        "twitter": "gdankov",
-        "email": "georgi.dankov@sap.com",
-        "city": "Sofia, Bulgaria",
-        "git": "gdankov",
-        "image": "https://avatars.githubusercontent.com/gdankov"
-      }, {
+      }, 
+      {
         "name": "Kieron Browne",
         "role": "Eiringineer",
         "company": "VMware",
@@ -71,14 +54,5 @@
         "twitter": "-",
         "git": "georgethebeatle",
         "image": "https://avatars.githubusercontent.com/georgethebeatle"
-    }, {
-        "name": "Yulia Nedyalkova",
-        "role": "Eirinigineer",
-        "company": "SAP",
-        "email": "yulia.nedyalkova@sap.com",
-        "city": "Sofia, Bulgaria",
-        "image": "https://avatars.githubusercontent.com/yulianedyalkova",
-        "git": "yulianedyalkova",
-        "twitter": "-"
       }
 ]
